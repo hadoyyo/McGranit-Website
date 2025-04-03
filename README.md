@@ -1,7 +1,7 @@
 # Profil - Website for a stonemasonry company
 
 <div align="center">
-  <img src="./ss/logo.png"/>
+  <img width="80%" src="./ss/logo.png"/>
 </div>
 
 ## Table of Contents
