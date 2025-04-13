@@ -31,7 +31,7 @@ $(document).ready(function() {
 	});
 
     $("#blog-post").owlCarousel({
-        autoPlay : 5000,
+        autoPlay : 4000,
         items : 3,
         responsiveClass:true,
         responsive: {
