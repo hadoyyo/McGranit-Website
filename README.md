@@ -1,4 +1,4 @@
-# Profil - Website for a stonemasonry company
+# McGranit - Website for a stonemasonry company
 
 <div align="center">
   <img width="75%" src="./ss/logo.png"/>
@@ -14,7 +14,7 @@
 
 ## Project Overview
 
-The **Profile** website was created for a stonemasonry company, producing tombstones, kitchen countertops, stone stairs, etc. It presents, among other things, previously completed projects. **The website is only available in Polish language version!**
+The **McGranit** website was created for a stonemasonry company, producing tombstones, kitchen countertops, stone stairs, etc. It presents, among other things, previously completed projects. **The website is only available in Polish language version!**
 
 ## Features
 
@@ -43,9 +43,10 @@ Software versions used for development (**compatibility with earlier versions ha
 
 ## Setup Instructions
 
-1. Place the project folder `profil` in `XAMPP\htdocs`.
-2. In the XAMPP control panel, start **Apache Web Server**.
-3. Launch the application in your browser at: `localhost/profil/index.html`.
+1. Download this repository.
+2. Place the project folder in `XAMPP\htdocs`.
+3. In the XAMPP control panel, start **Apache Web Server**.
+4. Launch the application in your browser at: `localhost/mcgranit/index.html`.
 
 ## Screenshots
 
