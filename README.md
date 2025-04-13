@@ -44,9 +44,9 @@ Software versions used for development (**compatibility with earlier versions ha
 ## Setup Instructions
 
 1. Download this repository.
-2. Place the project folder in `XAMPP\htdocs`.
+2. Unzip and place the project folder in `XAMPP\htdocs`.
 3. In the XAMPP control panel, start **Apache Web Server**.
-4. Launch the application in your browser at: `localhost/mcgranit/index.html`.
+4. Launch the application in your browser at: `localhost/McGranit-Website-main/index.html`.
 
 ## Screenshots
 
