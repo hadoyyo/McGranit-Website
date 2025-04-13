@@ -19,12 +19,12 @@ The **McGranit** website was created for a stonemasonry company, producing tombs
 ## Features
 
 **Client**
-- Offer divided into individual categories, allowing you to easily find information about the realization that interests you
-- Tab "Materiały" allowing you to get acquainted with the raw materials available for the manufacture of products
-- Extensive gallery, presenting projects completed by the company
+- 📂 Offer divided into individual categories, allowing you to easily find information about the realization that interests you
+- 🪨 Tab "Materiały" allowing you to get acquainted with the raw materials available for the manufacture of products
+- 🖼️ Extensive gallery, presenting projects completed by the company
 
 **Administrator**
-- Easily add more materials and photos of completed projects
+- ➕ Easily add more materials and photos of completed projects
 
 **Other features**
 - 📱 Full responsiveness
