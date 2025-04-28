@@ -14,7 +14,9 @@
 
 ## Project Overview
 
-The **McGranit** website was created for a stonemasonry company, producing tombstones, kitchen countertops, stone stairs, etc. It presents, among other things, previously completed projects. **The website is only available in Polish language version!**
+The **McGranit** website was created for a stonemasonry company, producing tombstones, kitchen countertops, stone stairs, etc. It presents, among other things, previously completed projects.
+> [!NOTE]  
+> The website is only available in Polish language version!
 
 ## Features
 
@@ -37,9 +39,11 @@ The **McGranit** website was created for a stonemasonry company, producing tombs
 - JavaScript
 
 ## Requirements
-Software versions used for development (**compatibility with earlier versions has not been tested**):
+Software versions used for development:
 - Bootstrap 5.0
 - XAMPP v3.3.0 (Apache Web Server) or other similar tool
+> [!WARNING]  
+> Compatibility with earlier versions has not been tested.
 
 ## Setup Instructions
 
