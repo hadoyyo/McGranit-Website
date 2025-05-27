@@ -46,6 +46,9 @@ Software versions used for development:
 > Compatibility with earlier versions has not been tested.
 
 ## Setup Instructions
+Just go to www.mcgranit.com.pl.
+
+OR
 
 1. Download this repository.
 2. Unzip and place the project folder in `XAMPP\htdocs`.
