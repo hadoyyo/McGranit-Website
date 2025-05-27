@@ -78,7 +78,7 @@ a:active {
 }
 .title {
   text-align: center;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
 }
 .title h2 {
   color: #333;
@@ -157,7 +157,7 @@ a:active {
 /* header style */
 header {
   padding: 20px 0;
-  background: 	#2c2c2c;
+  background: #1b1b1b;
 }
 header .navbar {
   height: auto;
@@ -1330,8 +1330,6 @@ footer p {
 }
 
 
-
-        /* Stylizacja sekcji Nasza oferta */
         .offer-section {
           padding: 50px 0;
           background-color: #f8f9fa;
@@ -1380,7 +1378,6 @@ footer p {
         font-size: 14px;
     }
     
-    /* Media query for smaller resolutions */
     @media (max-width: 991px) {
         .offer-card {
           margin-right: 60px;
@@ -1391,17 +1388,17 @@ footer p {
     
 
       footer a {
-        color: #f07d2d;/* Kolor linków ustawiony na żółty */
+        color: #f07d2d;
         text-decoration: none;
     }
     
     footer a:hover {
-        color: #ce6c26; /* Kolor linków na hover także ustawiony na żółty */
-        text-decoration: underline; /* Dodanie podkreślenia przy najechaniu */
+        color: #ce6c26;
+        text-decoration: underline;
     }
     
     footer h5 {
-        color: #f8f9fa; /* Kolor nagłówków na żółty */
+        color: #f8f9fa;
         margin-bottom: 15px;
     }
 
@@ -1409,10 +1406,10 @@ footer p {
     .sub-menu {
       display: none;
       position: absolute;
-      background: #2c2c2c;
+      background: #1b1b1b;
       padding: 10px;
       z-index: 1000;
-      min-width: 150px; /* Dodano minimalną szerokość dla lepszego wyświetlania */
+      min-width: 150px;
     }
       
     .menu-item {
@@ -1427,18 +1424,18 @@ footer p {
       color: rgb(255, 254, 247);
       transition: 0.3s;
       font-size: 16px;
-      margin-bottom: 5px; /* Możesz dostosować tę wartość */
+      margin-bottom: 5px;
       display: block;
       padding: 5px 15px;
       text-decoration: none;
-      position: relative; /* Dodano pozycjonowanie, aby linia mogła być odpowiednio umiejscowiona */
+      position: relative;
     }
     
     .sub-menu a:before {
       content: "";
       position: absolute;
-      left: 15px; /* Możesz dostosować tę wartość, aby zmienić położenie linii */
-      bottom: 5px; /* Możesz dostosować tę wartość, aby zmienić odległość linii od tekstu */
+      left: 15px;
+      bottom: 5px;
       width: 0;
       height: 1px;
       background: #f07d2d;
@@ -1446,18 +1443,18 @@ footer p {
     }
     
     .sub-menu a:hover:before {
-      width: 25px; /* Szerokość linii po najechaniu */
+      width: 25px;
     }
     
   
     @media (max-width: 768px) {
       .sub-menu {
-        position: static; /* Zmiana na statyczne, aby wyświetlały się poniżej głównego linku */
-        width: 100%; /* Zajmują pełną szerokość */
+        position: static;
+        width: 100%;
       }
   
       .menu-item:hover .sub-menu {
-        display: block; /* Umożliwienie wyświetlania sub-menu na hover */
+        display: block;
       }
 
       #banner .block h1 {
@@ -1470,13 +1467,13 @@ footer p {
     }
 
     .menu-item a i {
-      margin-left: 5px; /* Odstęp między tekstem a ikoną */
-      font-size: 14px; /* Rozmiar ikony, dostosuj według potrzeb */
-      vertical-align: middle; /* Wyrównanie w pionie */
+      margin-left: 5px;
+      font-size: 14px;
+      vertical-align: middle;
     }
 
     b {
-      font-weight: 500; /* Zmniejsz grubość do normalnej */
+      font-weight: 500;
   }
 
   h1 b {
@@ -1499,7 +1496,7 @@ footer p {
   .map {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* Ustawia proporcje 16:9 */
+    padding-bottom: 56.25%;
     height: 0;
     text-align: center;
     margin-bottom: 50px;
@@ -1540,15 +1537,15 @@ footer p {
   padding: 10px;
   border-radius: 50%;
   z-index: 9999;
-  opacity: 0; /* Początkowo ukryta */
-  visibility: hidden; /* Strzałka jest niewidoczna */
-  transition: opacity 0.9s ease; /* Płynne przejście */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.9s ease;
 }
 
 .scroll-to-top.show {
-  opacity: 1; /* Strzałka widoczna */
-  visibility: visible; /* Zmieniamy widoczność */
-  transition: opacity 1.8s ease; /* Płynne przejście */
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1.8s ease;
 }
 
 .scroll-to-top:hover {
@@ -1566,7 +1563,7 @@ footer p {
   position: relative;
   width: 100%;
   height: auto;
-  background-color: #f8f9fa; /* Kolor tła kontenera */
+  background-color: #f8f9fa;
 }
 
 #myVideo {
@@ -1577,80 +1574,86 @@ footer p {
 
 .video-text {
   position: absolute;
-  top: 50%; /* Wyśrodkowanie w pionie */
-  left: 50%; /* Wyśrodkowanie w poziomie */
-  transform: translate(-50%, -50%); /* Korekta środka */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
-  text-align: center; /* Wyśrodkowanie tekstu */
-  font-size: 1.4vw; /* Dynamiczny rozmiar tekstu zależny od szerokości ekranu */
+  text-align: center;
+  font-size: 1.4vw;
   line-height: 1.8;
   min-width: 70%;
-  max-width: 100%; /* Tekst może zajmować do 90% szerokości wideo */
-  text-shadow: 6px 6px 40px rgb(0, 0, 0); /* Dużo mocniejszy, bardziej rozległy cień */
-  box-sizing: border-box; /* Uwzględnia padding w szerokości */
-  word-wrap: break-word; /* Zawijanie tekstu na mniejszych ekranach */
+  max-width: 100%;
+  text-shadow: 6px 6px 40px rgb(0, 0, 0);
+  box-sizing: border-box;
+  word-wrap: break-word;
 }
 
-/* Zmiany dla mniejszych ekranów */
-
-@media (min-width: 801px) {
+@media (min-width: 1101px) {
   .video-text {
-    font-size: 2vw; /* Dostosowanie rozmiaru do bardzo małych ekranów */
+    font-size: 1.6vw;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   .video-text {
-    font-size: 3vw; /* Dostosowanie rozmiaru do bardzo małych ekranów */
-
+    font-size: 2.1vw;
   }
 }
-
-@media (max-width: 600px) {
-  .video-text {
-    font-size: 3.2vw; /* Dostosowanie rozmiaru do bardzo małych ekranów */
-
-  }
-}
-
 
 .mx-5 {
-  padding-left: 17%;
-  padding-right: 17%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+@media (max-width: 1300px) {
+  .mx-5 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 .motto-image {
   width: 120%;
-  margin: 0 auto; /* wyśrodkowanie */
+  margin: 0 auto;
   margin-left: -10%;
   display: block;
 }
 
 .motto-text {
-  font-size: 80%;
+  font-size: 100%;
   filter: drop-shadow(3px 5px 8px rgba(0, 0, 0, 0.3));
   display: block;
   text-align: center;
 }
 
-@media (max-width: 768px) {
+.naglowek-oferta
+{
+  margin-top: 5.5rem;
+}
+
+@media (max-width: 800px) {
+  .motto-text {
+    display: none;
+  }
+
   .motto-image {
-      transform: scale(1.1); /* powiększenie o 30% */
-      transform-origin: center top; /* punkt transformacji */
+    transform: scale(1.1);
+    transform-origin: center top;
   }
 }
 
 @media (min-width: 1500px) {
   .video-container {
-      margin-top: -50px; /* Ujemny margines tylko na dużych ekranach */
+    margin-top: -50px;
   }
 }
 
 @media (max-width: 800px) {
   .video-container {
-      margin-top: 70px; /* Ujemny margines tylko na dużych ekranach */
+    margin-top: 70px;
   }
 }
+
 
 @font-face {
   font-family: ethnocentric;
@@ -1666,5 +1669,48 @@ html .title h2, html  h1 {
   font-weight: 100;
     font-style: normal;
     font-display: swap;
-  color: #2c2c2c !important;
+  color: #1b1b1b !important;
+}
+
+
+/* Gallery quick navigation */
+.gallery-quick-nav {
+    background: #191919;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: all 0.3s ease;
+}
+
+.gallery-quick-nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.gallery-quick-nav li {
+    margin: 0 5px;
+}
+
+.gallery-quick-nav a.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 3px 3px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.gallery-quick-nav a.nav-link:hover,
+.gallery-quick-nav a.nav-link:focus {
+    color: #f07d2d;
+    background: rgba(240, 125, 45, 0.1);
+}
+
+.gallery-quick-nav a.nav-link.active {
+    color: #fff;
+    background: #f07d2d;
 }
